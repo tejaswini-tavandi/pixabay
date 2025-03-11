@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/pixabay_favicon.png" />
+
+    <title>5.3 million+ Stunning Free Images to Use Anywhere - Pixabay</title>
+    <style>
+        #scrollTags::-webkit-scrollbar {
+          display: none;
+        }
+        #scrollTags {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+    </style>
+      <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+      
+</head>
+
+<body>
+
+    <section class="relative w-full min-h-screen sm:h-[400px] md:h-[520px] lg:h-[600px]">
+        <!-- Background Video -->
+        <video class="absolute top-0 left-0 w-full h-full object-cover" autoplay loop muted>
+            <source src="videos/videos_bg.mp4" type="video/mp4">
+        </video>
+    
+        <!-- Dark Overlay (optional for readability) -->
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    
+        <div class="relative z-10 p-6">
+            <div class="text-white flex flex-col md:flex-row justify-between items-center px-4 py-4">
+                <!-- Your existing content here -->
+                <!-- Logo Text -->
+                <h1 class="text-4xl font-bold lowercase tracking-wide text-center md:text-left lg:text-left" style="font-family: 'Comfortaa', cursive;">
+                    pixabay
+                </h1>      
+        
+                <!-- Right Side: Navigation Links -->
+                <nav class="flex flex-col md:flex-row text-m font-bold text-white md:mr-10 space-y-4 md:space-y-0 md:space-x-6 items-center">
+
+                    <div class="relative inline-block">
+                        <!-- Existing Explore Button -->
+                        <a id="explore-btn" class="rounded-full px-2 py-2 flex items-center gap-2 hover:bg-white hover:bg-opacity-40 transition-all duration-300 cursor-pointer">
+                            Explore
+                            <i class="fa-solid fa-chevron-down text-white text-xs"></i>
+                        </a>
+                    
+                        <!-- Dropdown Menu -->
+                        <div id="dropdown-menu" class="hidden absolute left-1/2 transform -translate-x-1/2 mt-4 w-[600px] bg-gray-900 text-white rounded-lg shadow-lg z-50 justify-center sm:text-xs md:text-md lg:text-lg">
+                            <div class="grid grid-cols-5 gap-6 p-6">
+                                
+                                <!-- Media -->
+                                <div>
+                                    <h3 class="font-bold text-base mb-2 text-white">Media</h3>
+                                    <ul class="space-y-1">
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Photos</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Illustrations</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Vectors</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Videos</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Music</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Sound Effects</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">GIFs</a></li>
+                                    </ul>
+                                </div>
+                    
+                                <!-- Discover -->
+                                <div>
+                                    <h3 class="font-bold text-base mb-2 text-white">Discover</h3>
+                                    <ul class="space-y-1">
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Editor's Choice</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Curated Collections</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Pixabay Radio</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Popular Images</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Popular Videos</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Popular Music</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Popular Searches</a></li>
+                                    </ul>
+                                </div>
+                    
+                                <!-- Trending -->
+                                <div>
+                                    <h3 class="font-bold text-base mb-2 text-white">Trending</h3>
+                                    <ul class="space-y-1">
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">International Women's Day</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Rio Carnival</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Holi</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">St. Patrick’s Day</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Ramadan</a></li>
+                                    </ul>
+                                </div>
+                    
+                                <!-- Community -->
+                                <div>
+                                    <h3 class="font-bold text-base mb-2 text-white">Community</h3>
+                                    <ul class="space-y-1">
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Creators</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Forum</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Blog</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Cameras</a></li>
+                                    </ul>
+                                </div>
+                    
+                                <!-- About -->
+                                <div>
+                                    <h3 class="font-bold text-base mb-2 text-white">About</h3>
+                                    <ul class="space-y-1">
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">About Us</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">FAQ</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">License Summary</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Terms of Service</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Privacy Policy</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Cookies Policy</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">Report Content</a></li>
+                                        <li><a href="#" class="text-sm text-gray-400 hover:text-gray-300">API</a></li>
+                                    </ul>
+                                </div>
+                    
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <script>
+                        document.getElementById("explore-btn").addEventListener("click", function () {
+                            document.getElementById("dropdown-menu").classList.toggle("hidden");
+                        });
+                    
+                        document.addEventListener("click", function (event) {
+                            let button = document.getElementById("explore-btn");
+                            let menu = document.getElementById("dropdown-menu");
+                            if (!button.contains(event.target) && !menu.contains(event.target)) {
+                                menu.classList.add("hidden");
+                            }
+                        });
+                    </script>
+
+                    <!-- Login Button -->
+                    <button id="login-btn" class="rounded-full px-4 py-2 hover:bg-white hover:bg-opacity-40 transition-all duration-300">Log in</button>
+
+                    <!-- Overlay (Background Blur) -->
+                    <div id="login-modal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex justify-center items-center z-50">
+                        <!-- Modal Box -->
+                        <div class="bg-white w-[450px] rounded-lg shadow-lg relative p-6">
+                            
+                            <!-- Close Button -->
+                            <button id="close-modal" class="absolute top-1 right-3 text-gray-600 text-xl hover:text-black">&times;</button>
+                            
+                            <!-- Modal Header -->
+                            <h2 class="text-center font-bold text-lg py-3 bg-gray-900 text-white rounded-t-lg">
+                                Sign up to download unlimited full resolution media
+                            </h2>
+                            
+                            <!-- Tab Buttons -->
+                            <div class="flex justify-around py-4 border-b">
+                                <button id="signup-tab" class="text-gray-500 text-lg pb-2">Sign up</button>
+                                <button id="login-tab" class="text-black text-lg pb-2 border-b-2 border-green-500">Log in</button>
+                            </div>
+
+                            <!-- Sign Up Form -->
+                            <form id="signup-form" class="space-y-4 hidden">
+                                <div>
+                                    <label class="block text-gray-700 text-sm font-medium">Email</label>
+                                    <input type="email" placeholder="example@gmail.com" class="w-full px-4 py-2 border rounded-md text-gray-700"/>
+                                </div>
+                                <div>
+                                    <label class="block text-gray-700 text-sm font-medium">Create Password</label>
+                                    <input type="password" class="w-full px-4 py-2 border rounded-md text-gray-700"/>
+                                </div>
+                                <button class="w-full bg-green-500 text-white py-2 rounded-md">Sign up</button>
+                            </form>
+
+                            <!-- Log In Form -->
+                            <form id="login-form" class="space-y-4">
+                                <div>
+                                    <label class="block text-gray-700 text-sm font-medium">Username or email</label>
+                                    <input type="text" placeholder="example@gmail.com" class="w-full px-4 py-2 border rounded-md text-gray-700"/>
+                                </div>
+                                <div>
+                                    <label class="block text-gray-700 text-sm font-medium">Password</label>
+                                    <div class="relative">
+                                        <input type="password" class="w-full px-4 py-2 border rounded-md text-gray-700"/>
+                                        <span class="absolute right-3 top-2 cursor-pointer text-gray-400"></span>
+                                    </div>
+                                </div>
+                                <button class="w-full bg-green-500 text-white py-2 rounded-md">Log in</button>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <!-- JavaScript for Modal & Tab Switching -->
+                    <script>
+                    document.getElementById("login-btn").addEventListener("click", function () {
+                        document.getElementById("login-modal").classList.remove("hidden");
+                    });
+
+                    document.getElementById("close-modal").addEventListener("click", function () {
+                        document.getElementById("login-modal").classList.add("hidden");
+                    });
+
+                    // Tab Switching Logic
+                    document.getElementById("signup-tab").addEventListener("click", function () {
+                        document.getElementById("signup-form").classList.remove("hidden");
+                        document.getElementById("login-form").classList.add("hidden");
+
+                        // Update tab styles
+                        document.getElementById("signup-tab").classList.add("text-black", "border-b-2", "border-green-500");
+                        document.getElementById("signup-tab").classList.remove("text-gray-500");
+                        document.getElementById("login-tab").classList.add("text-gray-500");
+                        document.getElementById("login-tab").classList.remove("text-black", "border-b-2", "border-green-500");
+                    });
+
+                    document.getElementById("login-tab").addEventListener("click", function () {
+                        document.getElementById("login-form").classList.remove("hidden");
+                        document.getElementById("signup-form").classList.add("hidden");
+
+                        // Update tab styles
+                        document.getElementById("login-tab").classList.add("text-black", "border-b-2", "border-green-500");
+                        document.getElementById("login-tab").classList.remove("text-gray-500");
+                        document.getElementById("signup-tab").classList.add("text-gray-500");
+                        document.getElementById("signup-tab").classList.remove("text-black", "border-b-2", "border-green-500");
+                    });
+                    </script>
+
+                    <a href="#"
+                        class="rounded-full px-4 py-2 bg-slate-50 border-solid border-2 bg-opacity-20 hover:bg-white hover:bg-opacity-40 hover:bg-transition-all duration-300">Join</a>
+                    <button><a href="#"
+                            class="bg-green-600 rounded-full px-3 py-3 hover:bg-green-500 transition duration-300"><i
+                                class="fa-solid fa-upload text-white"></i>Upload</a></button>
+
+                </nav>
+            </div>          
+
+            <p class="text-3xl sm:text-2xl md:text-3xl lg:text-4xl text-white mt-10 text-center font-bold">Stunning royalty-free images & royalty-free stock</p>
+              
+            <style>
+                 .active {
+                    background-color: white;
+                    color: #333; /* Dark gray text */
+                }
+                /* Hide scrollbar */
+                .hide-scrollbar::-webkit-scrollbar {
+                    display: none;
+                }
+                .hide-scrollbar {
+                    -ms-overflow-style: none;  /* IE and Edge */
+                    scrollbar-width: none;  /* Firefox */
+                }
+              
+                /* Hide buttons on large screens */
+                @media (min-width: 1024px) {  
+                    #scroll-left, #scroll-right {
+                        display: none !important;
+                    }
+                }
+              </style>
+     
+              <div class="relative w-full px-4 mt-12 flex justify-center">
+                  <!-- Left Scroll Button -->
+                  <button id="scroll-left" class="absolute left-0 top-1/2 -translate-y-1/2 hover:bg-white/10 text-white p-3 rounded-full hidden z-10 sm:flex">
+                      &#10094;
+                  </button>
+              
+                  <!-- Scrollable List Container -->
+                  <div id="scroll-container" class="flex hide-scrollbar overflow-x-auto items-center space-x-6 px-10 max-w-4xl lg:max-w-5xl w-full justify-center">
+                      <a href="index.html" class="nav-link rounded-full px-4 py-2 text-white hover:bg-white/10 font-bold transition-all duration-200">Explore</a>
+                      <a href="photos.html" class="nav-link rounded-full px-4 py-2 text-white hover:bg-white/10 font-bold transition-all duration-200">Photos</a>
+                      <a href="illustration.html" class="nav-link rounded-full px-4 py-2  text-white hover:bg-white/10 font-bold transition-all duration-200">Illustrations</a>
+                      <a href="vectors.html" class="nav-link rounded-full px-4 py-2 text-white hover:bg-white/10 font-bold transition-all duration-200">Vectors</a>
+                      <a href="videos.html" class="nav-link rounded-full px-4 py-2 text-white hover:bg-white/10 font-bold transition-all duration-200">Videos</a>
+                      <a href="music.html" class="nav-link rounded-full px-4 py-2 text-white hover:bg-white/10 font-bold transition-all duration-200">Music</a>
+                      <a href="sound_effects.html" class="nav-link rounded-full px-4 py-2 text-white hover:bg-white/10 font-bold transition-all duration-200">Sound Effects</a>
+                      <a href="gifs.html" class="nav-link rounded-full px-4 py-2 text-white hover:bg-white/10 font-bold transition-all duration-200">GIFs</a>
+                  </div>
+              
+                  <!-- Right Scroll Button -->
+                  <button id="scroll-right" class="absolute right-0 top-1/2 -translate-y-1/2 hover:bg-white/10 text-white p-3 rounded-full hidden z-10 sm:flex">
+                      &#10095;
+                  </button>
+              </div>
+              
+              <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const container = document.getElementById("scroll-container");
+                    const scrollLeft = document.getElementById("scroll-left");
+                    const scrollRight = document.getElementById("scroll-right");
+                    const navLinks = document.querySelectorAll(".nav-link");
+            
+                    function updateButtons() {
+                        if (window.innerWidth >= 1024) {  
+                            scrollLeft.classList.add("hidden");
+                            scrollRight.classList.add("hidden");
+                            container.classList.add("justify-center");
+                        } else {
+                            scrollLeft.classList.toggle("hidden", container.scrollLeft <= 0);
+                            scrollRight.classList.toggle("hidden", container.scrollLeft + container.clientWidth >= container.scrollWidth);
+                            container.classList.remove("justify-center");
+                        }
+                    }
+            
+                    // Highlight the active link
+                    function highlightActivePage() {
+                        const currentPage = window.location.pathname.split("/").pop();
+                        navLinks.forEach(link => {
+                            if (link.getAttribute("href") === currentPage) {
+                                link.classList.add("active");
+                            } else {
+                                link.classList.remove("active");
+                            }
+                        });
+                    }
+            
+                    scrollLeft.addEventListener("click", () => {
+                        container.scrollBy({ left: -200, behavior: "smooth" });
+                        setTimeout(updateButtons, 300);
+                    });
+            
+                    scrollRight.addEventListener("click", () => {
+                        container.scrollBy({ left: 200, behavior: "smooth" });
+                        setTimeout(updateButtons, 300);
+                    });
+            
+                    container.addEventListener("scroll", updateButtons);
+                    window.addEventListener("resize", updateButtons);
+            
+                    updateButtons();
+                    highlightActivePage();
+                });
+            </script>
+                    
+                <div class="p-3 mt-7 flex items-center rounded-full bg-white/30 backdrop-blur-md w-full max-w-[800px] sm:max-w-[600px] md:max-w-[700px] lg:max-w-[900px] mx-auto transition-all duration-300 focus-within:w-[95%] hover:bg-white/40">
+                    <i class="fa-solid fa-magnifying-glass text-white ml-3"></i>
+                    <input type="text" placeholder="Search for Images, Videos, Music & more"
+                        class="w-full bg-transparent text-white placeholder:text-white outline-none px-3 focus:w-full transition-all duration-300">
+                </div>
+                    
+                    
+                <div class="w-full flex flex-col items-center justify-center mt-10 space-y-4 px-4">
+                    <div class="relative flex items-center justify-center w-full max-w-7xl">
+                        <!-- Left Scroll Button -->
+                        <button id="scrollLeft"
+                            class="absolute -left-4 sm:left-0 md:left-2 lg:left-36 xl:left-40 top-1/2 -translate-y-1/2 hover:bg-white/10 text-white p-2 md:p-3 rounded-full hidden z-10 sm:flex">
+                            &#10094;
+                        </button>
+                
+                        <!-- Scrollable List -->
+                        <div id="scrollTags"
+                            class="flex items-center overflow-x-auto whitespace-nowrap scroll-smooth scrollbar-hide space-x-2 px-4 py-2 w-[90%] sm:w-[85%] md:w-[80%] lg:w-[75%] xl:w-[70%]">
+                            <a href="#" class="bg-white/20 rounded-full px-4 py-2 text-white text-sm md:text-base hover:bg-white/10 transition-all duration-200">Nature</a>
+                            <a href="#" class="bg-white/20 rounded-full px-4 py-2 text-white text-sm md:text-base hover:bg-white/10 transition-all duration-200">Wallpaper</a>
+                            <a href="#" class="bg-white/20 rounded-full px-4 py-2 text-white text-sm md:text-base hover:bg-white/10 transition-all duration-200">Green Screen</a>
+                            <a href="#" class="bg-white/20 rounded-full px-4 py-2 text-white text-sm md:text-base hover:bg-white/10 transition-all duration-200">Anime</a>
+                            <a href="#" class="bg-white/20 rounded-full px-4 py-2 text-white text-sm md:text-base hover:bg-white/10 transition-all duration-200">Women's Day</a>
+                            <a href="#" class="bg-white/20 rounded-full px-4 py-2 text-white text-sm md:text-base hover:bg-white/10 transition-all duration-200">Ramadan</a>
+                            <a href="#" class="bg-white/20 rounded-full px-4 py-2 text-white text-sm md:text-base hover:bg-white/10 transition-all duration-200">Holi</a>
+                            <a href="#" class="bg-white/20 rounded-full px-4 py-2 text-white text-sm md:text-base hover:bg-white/10 transition-all duration-200">Indian</a>
+                            <a href="#" class="bg-white/20 rounded-full px-4 py-2 text-white text-sm md:text-base hover:bg-white/10 transition-all duration-200">Intro</a>
+                            <a href="#" class="bg-white/20 rounded-full px-4 py-2 text-white text-sm md:text-base hover:bg-white/10 transition-all duration-200">Girl</a>
+                            <a href="#" class="bg-white/20 rounded-full px-4 py-2 text-white text-sm md:text-base hover:bg-white/10 transition-all duration-200">Autumn</a>
+                        </div>
+                
+                        <!-- Vertical Line (Only for large screens) -->
+                        <div id="scrollIndicator" class="h-6 w-[2px] bg-white mx-2 hidden sm:block ml-1 mr-6"></div>
+                
+                        <!-- Right Scroll Button -->
+                        <button id="scrollRight"
+                            class="absolute right-2 sm:right-4 md:right-6 lg:right-36 xl:right-40 top-1/2 -translate-y-1/2 hover:bg-white/10 text-white p-2 md:p-3 rounded-full hidden z-10 sm:flex">
+                            &#10095;
+                        </button>
+                    </div>
+                </div>
+                
+                <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const scrollTags = document.getElementById("scrollTags");
+                    const scrollLeft = document.getElementById("scrollLeft");
+                    const scrollRight = document.getElementById("scrollRight");
+                    const scrollIndicator = document.getElementById("scrollIndicator");
+                
+                    function updateUI() {
+                        const isOverflowing = scrollTags.scrollWidth > scrollTags.clientWidth;
+                        const isAtStart = scrollTags.scrollLeft <= 0;
+                        const isAtEnd = scrollTags.scrollLeft + scrollTags.clientWidth >= scrollTags.scrollWidth - 1;
+                
+                        scrollLeft.classList.toggle("hidden", !isOverflowing || isAtStart);
+                        scrollRight.classList.toggle("hidden", !isOverflowing || isAtEnd);
+                        scrollIndicator.classList.toggle("hidden", !isOverflowing);
+                    }
+                
+                    function smoothScroll(direction) {
+                        const scrollAmount = Math.min(scrollTags.clientWidth / 2, 250);
+                        scrollTags.scrollBy({ left: direction * scrollAmount, behavior: "smooth" });
+                        setTimeout(updateUI, 300);
+                    }
+                
+                    scrollLeft.addEventListener("click", () => smoothScroll(-1));
+                    scrollRight.addEventListener("click", () => smoothScroll(1));
+                
+                    scrollTags.addEventListener("scroll", updateUI);
+                    window.addEventListener("resize", updateUI);
+                
+                    scrollTags.scrollLeft = 0;
+                    updateUI();
+                });
+                </script>
+                
+            <div class="text-gray-200 text-xs flex w-5/6 justify-between mx-auto mt-20">
+                <span>Free image by 
+                    <a href="https://pixabay.com/videos/tiger-predator-dangerous-carnivores-145320/" target="_blank" class="hover:text-gray-400 transition-all duration-100"><strong><u>NickyPe</u></strong></a></span>
+                    <span>Read more about the 
+                        <a href="https://pixabay.com/service/terms/" target="_blank" class="hover:text-gray-400 transition-all duration-100"><strong><u>Content License</u></strong></a>
+                    </span>
+            </div>
+        </div>
+    </section>    
+
+    <div class="mt-[50px] sm:mt-[50px] md:mt-[50px] lg:mt-[50px] xl:mt-[50px] px-4 w-5/6 mx-auto">
+        <p class="text-black text-left text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-medium max-w-3xl">
+            Over 5.3 million+ high quality stock images, videos, and music shared by our talented community.
+        </p>
+    </div>
+
+    <!-- Image Grid Section -->
+    <div class="w-5/6 mx-auto mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+        
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_1.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:20</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Bees Insects Beehive</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_2.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:11</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Women Social Networking</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_3.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:40</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Flower Gemswurz Yellow</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_4.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:20</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Sea Ocean Seagulls</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_5.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:15</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Jog Path Road Forest</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_6.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:13</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Book Pages Literature</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_7.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:52</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Morning Fog</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_8.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:35</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Flower Bee Anemone</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_9.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:49</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Marsupial Mammal</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_10.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:59</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Sea Waves Blue</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_11.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:40</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Flower Peony Bee</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_12.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:30</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Waterfall Stream River</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_13.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:50</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Snowball Flower White</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_14.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:20</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Waterfall River Water</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+        <!-- Video with Hover Icons -->
+        <div class="relative group w-full h-48 rounded-lg shadow-md overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay loop muted>
+                <source src="videos/video_15.mp4" type="video/mp4">
+            </video>
+            
+
+            <!-- Icons (Hidden by default, shown on hover) -->
+            <div class="absolute top-2 left-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                ❤️ <!-- Favorite icon -->
+                </button>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                🔗 <!-- Share or link icon -->
+                </button>
+            </div>
+
+            <div class="absolute top-2 right-2 flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-sm text-white"><strong>4K</strong> 0:25</p>
+                <button class="bg-white/10 text-white p-2 rounded-md hover:bg-white/40">
+                    🏆 <!-- Award or special icon -->
+                </button>
+            </div>
+            
+            <div class="absolute bottom-8 left-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p class="text-white text-md font-medium">Flow Rocks Water</p>
+            </div>
+
+            <div class="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-white/10 text-xs text-white px-1 py-1 rounded-lg shadow-md hover:bg-white/40">
+                    ✏️ Edit video
+                </button>
+            </div>
+        </div>
+
+    </div>
+        
+    <div class="mt-[50px] sm:mt-[55px] md:mt-[60px] lg:mt-[65px] xl:mt-[75px] px-4 w-5/6 mx-auto"></div>
+    <!-- Footer Section -->
+    <footer class="bg-gray-100 py-10 px-5 mt-20">
+        <!-- Top Section -->
+        <div class="flex items-start border-b border-gray-300 pb-5 mb-5">
+            <div class="bg-green-500 text-white flex items-center justify-center w-8 h-8 rounded-full mr-3">
+                ✔
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold">Free media you can use anywhere</h4>
+                <p class="text-sm text-gray-600 mt-1">
+                    Pixabay is a vibrant community of creatives, sharing royalty-free images, videos, audio, and other media. 
+                    All content is released by Pixabay under the Content License, making it safe to use without asking for permission 
+                    or giving credit to the artist—even for commercial purposes.
+                </p>
+                <a href="#" class="text-green-600 font-semibold text-sm mt-2 inline-block">Learn more about our license</a>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Left Section -->
+            <div class="col-span-1">
+                <h2 class="text-2xl font-bold">pixabay</h2>
+                <p class="text-sm text-gray-600 mt-2">Over 5.3 million+ high-quality stock images, videos, and music shared by our talented community.</p>
+                <div class="flex space-x-4 mt-4 text-gray-600">
+                    <a href="#"><i class="fa-brands fa-instagram text-lg"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest text-lg"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter text-lg"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook text-lg"></i></a>
+                </div>
+            </div>
+
+            <!-- Links Section -->
+            <div>
+                <h4 class="text-lg font-semibold">Discover</h4>
+                <ul class="mt-2 space-y-2 text-sm text-gray-700">
+                    <li><a href="#" class="hover:text-green-500">Editor's Choice</a></li>
+                    <li><a href="#" class="hover:text-green-500">Curated Collections</a></li>
+                    <li><a href="#" class="hover:text-green-500">Pixabay Radio <span class="bg-green-500 text-white text-xs px-2 py-1 rounded">NEW</span></a></li>
+                    <li><a href="#" class="hover:text-green-500">Popular Images</a></li>
+                    <li><a href="#" class="hover:text-green-500">Popular Videos</a></li>
+                    <li><a href="#" class="hover:text-green-500">Popular Music</a></li>
+                    <li><a href="#" class="hover:text-green-500">Popular Searches</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-semibold">Community</h4>
+                <ul class="mt-2 space-y-2 text-sm text-gray-700">
+                    <li><a href="#" class="hover:text-green-500">Blog</a></li>
+                    <li><a href="#" class="hover:text-green-500">Forum</a></li>
+                    <li><a href="#" class="hover:text-green-500">Creators</a></li>
+                    <li><a href="#" class="hover:text-green-500">Cameras</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-semibold">About</h4>
+                <ul class="mt-2 space-y-2 text-sm text-gray-700">
+                    <li><a href="#" class="hover:text-green-500">About Us</a></li>
+                    <li><a href="#" class="hover:text-green-500">FAQ</a></li>
+                    <li><a href="#" class="hover:text-green-500">License Summary</a></li>
+                    <li><a href="#" class="hover:text-green-500">Terms of Service</a></li>
+                    <li><a href="#" class="hover:text-green-500">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-green-500">Cookies Policy</a></li>
+                    <li><a href="#" class="hover:text-green-500">Digital Services Act</a></li>
+                    <li><a href="#" class="hover:text-green-500">Report Content</a></li>
+                    <li><a href="#" class="hover:text-green-500">API</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
