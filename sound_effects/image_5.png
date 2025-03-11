@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2cffeeadcae6f31f67a67d7b7e38ef2b1a78d512e625b233bacc0bd6aeaeb9c9
-size 358
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <defs>
+        <linearGradient id="g" gradientTransform="rotate(135)">
+            <stop offset="0%" stop-color="hsl(22, 88%, 85%)"/>
+            <stop offset="100%" stop-color="hsl(85, 88%, 80%)"/>
+        </linearGradient>
+    </defs>
+    <rect width="48" height="48" fill="url(#g)"/>
+</svg>
