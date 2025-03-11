@@ -1,2 +1,0 @@
-*.mp4,[[:space:]]*.mp3,[[:space:]]*.png,[[:space:]]*.gif,[[:space:]]*.webp filter=lfs diff=lfs merge=lfs -text
-*.mp3,[[:space:]]*.png,[[:space:]]*.gif,[[:space:]]*.webp filter=lfs diff=lfs merge=lfs -text
